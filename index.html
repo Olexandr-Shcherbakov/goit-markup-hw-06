@@ -38,18 +38,65 @@
                 <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
     </address>
+    <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24"height=24>
+        <use href="./images/icons.svg#icon-btn-burger"></use>   
+        </svg>
+    </button>
+    </div>
+    <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+        <button type="button" class="mobile-menu-close">
+            <svg class="ikonclose" width="8" height="8" viewbox=" 0 0 24 24" fill="none">
+            <use  class="iconbutt" href="./images/icons.svg#icon-close3"></use>
+        </svg>    
+        </button>
+        <nav class="mobile-menu-nav">
+        <ul>
+            <li><a class="mobmenu" href="./index.html">Studio</a></li>
+            <li><a class="mobmenu" href="">Portfolio</a></li>
+            <li><a class="mobmenu" href="">Contacts</a></li>
+        </ul>    
+        </nav>
+        <address>
+        <ul>
+            <li><a class="mobcont" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li><a class="mobcont" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        </ul>
+       </address>
+       <div>
+        <ul>
+            <li><a class="postso" href="./images/icons.svg#icon-instagram">
+                <svg class="svgteam" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+            </svg></a></li>
+            <li><a class="postso" href="./images/icons.svg#icon-twitter">
+                <svg class="svgteam" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+            </svg></a></li>
+            <li><a class="postso" href="./images/icons.svg#icon-facebook">
+                <svg class="svgteam" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+            </svg></a></li>
+            <li><a class="postso" href="./images/icons.svg#icon-linkedin">
+                <svg class="svgteam" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg></a></li>
+        </ul>
+       </div>    
+        </div>
     </div>
    </header> 
    <main>
      
-     <section class="sectionone">
+     <section class="sectionone hidden">
         <div class="container sectone">
         <h1 class="onetitle">Effective Solutions for Your Business</h1>
             <button class="buttonorder" type="button" >Order Service</button>
         </div>
      </section>
 
-     <section class="sectskill">
+     <section class="sectskill hidden">
         <div class="container contskil">
         <h2 class="visually-hidden">skill</h2>
         <ul class="skilllist">
@@ -104,7 +151,7 @@
         </div>
     </section>
 
-    <section class="sectionthree">
+    <section class="sectionthree hidden">
         <div class="container conteam">
         <h2 class="tithtwo">Our team</h2>
         <ul class="oursp">
@@ -195,7 +242,7 @@
            </ul>
         </div>      
     </section>
-    <section class="sectend">
+    <section class="sectend hidden">
         <div class="container contport">
         <h2 class="tithtwo">Our Portfolio</h2>
         <ul class="portfol">
@@ -270,7 +317,7 @@
     </div>
     </section>
    </main>
-   <footer class="page-footer">
+   <footer class="page-footer hidden">
     <div class="container footrendd">
     <div class="confoot">
         <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
@@ -312,7 +359,7 @@
     </div>
    </footer>
 
-   <div class="backdrop is-open">
+   <div class="backdrop is-open hidden">
     <div class="modal">
         <button type="button" class="modal-close">
             <svg class="ikonclose" width="8" height="8" viewbox=" 0 0 24 24" fill="none">
