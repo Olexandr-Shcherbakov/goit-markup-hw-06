@@ -243,7 +243,9 @@ a{ text-decoration: none ;}
     max-width: 320px;
     height: 432px;
     margin-bottom: 96px;
-    }         
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}         
            
     .onetitle{font-weight: 700;
     font-size: 36px;
@@ -280,10 +282,10 @@ a{ text-decoration: none ;}
     {.sectone{
     max-width: 768px;
     height:436px ;
-    align-items: center;
+   
     }  
-    .sectionone{ background-repeat: no-repeat;
-    background-position: center;
+    .sectionone{background-repeat: no-repeat;
+    background-position: center; 
     max-width: 768px;
     height:436px ;
     background-size: cover;
@@ -298,7 +300,9 @@ a{ text-decoration: none ;}
     text-align: center; 
     }}
     @media screen and (min-width:1158px)
-    {.sectone{
+    {.sectone{ 
+    width: 1440px;
+    height: 600px;
     padding-bottom: 120px;
     }
     .sectionone{    
