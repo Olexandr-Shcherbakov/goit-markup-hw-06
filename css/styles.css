@@ -234,7 +234,10 @@ a{ text-decoration: none ;}
         max-width: 288px;
         height: 432px;  
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
-    url(../images/hero-image.jpg); }
+    url(../images/hero-image.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
     .sectionone{ background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
     url(../images/hero-image.jpg); 
     max-width: 320px;
@@ -278,10 +281,7 @@ a{ text-decoration: none ;}
     max-width: 768px;
     height:436px ;
     align-items: center;
-   
-    background-repeat: no-repeat;
-    background-position: 50% 50%; 
-    background-size: cover; }  
+    }  
     .sectionone{ background-repeat: no-repeat;
     background-position: center;
     max-width: 768px;
@@ -298,20 +298,13 @@ a{ text-decoration: none ;}
     text-align: center; 
     }}
     @media screen and (min-width:1158px)
-    {.sectone{align-items: center;
-    background-repeat: no-repeat;
-    background-position: 50% 50%; 
-    background-size: cover;
-    text-align: center;
-    margin-bottom: 120px;
+    {.sectone{
+    padding-bottom: 120px;
     }
     .sectionone{    
     max-width: 1440px;
     height: 600px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-   }
+    }
     .onetitle{ 
     max-width: 496px;
     height: 120px;
@@ -381,7 +374,7 @@ a{ text-decoration: none ;}
     .sectskill{width: 1128px;
     height: 224px;
     padding: 120px 0;
-    margin-bottom: 120px;}
+    padding-bottom: 120px;}
     .sekskill{display: flex;align-items: center;
     justify-content: center;height: 112px;
     background-color: #f4f4fd;
@@ -419,7 +412,7 @@ a{ text-decoration: none ;}
     box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);}
     .oursp{width: 264px;
-    height: 1928px; 
+    
     }
     .imgsecth{display: block;
     box-shadow: 0px 1px 6px rgba(46,47,66,0.16),0px 2px 1px rgba(46,47,66,0.08);
@@ -445,26 +438,26 @@ a{ text-decoration: none ;}
     align-items:center;
     margin-top: 8px; gap: 24px;
     margin-bottom: 32px;
-    width: 232px;height: 40px;
+    width: 232px;
     justify-content: center;
     margin-left: 16px;}
 
     @media screen and (min-width:768px)
     {.sectionthree{width: 768px;
-    height: 1224px;}
+    }
     .tithtwo{padding-top: 96px; }
     .thretext{text-align: center;}
-    .tiththree{margin-left: 70px;}
+    .tiththree{}
     .nameprof{
     width: 232px;
-    height: 104px;
+   
     padding: 32px 0 32px;
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px ;}
     .navsoshmed{margin-top: 8px;}
     .oursp{row-gap: 64px;
     width: 552px;
-    height: 920px;
+    
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -474,14 +467,13 @@ a{ text-decoration: none ;}
 
     @media screen and (min-width:1158px)
     {.sectionthree{width: 1440px;
-    height: 780px;
-    margin-bottom: 120px;}
+   
+    padding-bottom: 120px;}
     .oursp{margin: 0 auto;
     justify-content: center;
     align-items: center;
     flex-wrap:nowrap;
     max-width: 1128px;
-    height:428px ;
     margin-bottom: 120px;
     }
     .nameprof{}
@@ -501,7 +493,7 @@ a{ text-decoration: none ;}
     {.parfour{display: none;}}
 
 
-    .sectionethree{margin-bottom: 100px;}
+    .sectionethree{padding-bottom: 100px;}
     .contport{margin-bottom: 96px;}
     .tithtwo{margin-bottom: 72px;
     font-family: "Roboto", sans-serif ; 
@@ -544,7 +536,7 @@ a{ text-decoration: none ;}
 
     @media screen and (min-width:768px)
  
-    {.sectionethree{margin-bottom: 112px;}
+    {.sectionethree{padding-bottom: 112px;}
     .portfol{gap: 24px;
     row-gap: 72px;
     display: flex;
@@ -563,7 +555,7 @@ a{ text-decoration: none ;}
     height:420px;}
     }
     @media screen and (min-width:1158px)
-    {.sectionethree{margin-bottom: 120px;}
+    {.sectionethree{padding-bottom: 120px;}
     .contfor{padding: 32px 16px;
     border: 1px solid#e7e9fc;
     border-top: none;}
