@@ -330,7 +330,7 @@ a{ text-decoration: none ;}
     .sectskill{width: 288px;
     height: 696px;}
     
-    .tiththree{margin-left: 75px;
+    .tiththree{
     margin-bottom:  8px;
     font-weight: 700;
     font-size: 36px;
@@ -340,7 +340,6 @@ a{ text-decoration: none ;}
     color: #2e2f42;}
     .text{
     font-family: "Roboto", sans-serif;
-    
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -349,8 +348,6 @@ a{ text-decoration: none ;}
     }
     .endle{
     margin-bottom: 72px;    
-    width:288px;
-    height: 120px;
     }
     .past{margin: 0;}
     .sectskill{margin-bottom: 96px;
@@ -361,7 +358,7 @@ a{ text-decoration: none ;}
     {.endle{
     margin: 0 auto;
     width: 356px;
-    height: 120px;}
+    }
     .skilllist{
     width: 736px;
     height: 312px;    
@@ -397,7 +394,7 @@ a{ text-decoration: none ;}
     line-height: 120%;}
     .text{ font-weight: 400;
     width: 264px;
-    height: 72px;}
+    }
     }
 
     /*section three*/
@@ -406,7 +403,7 @@ a{ text-decoration: none ;}
     fill: #f4f4fd  ; width: 24px;
     height: 24px; }
     .sectionthree{background-color: #f4f4fd;
-    margin-bottom: 96px;}
+    padding-bottom: 96px;}
     .tithtwo{
     padding-top: 96px;
     margin-bottom: 72px;
@@ -454,11 +451,13 @@ a{ text-decoration: none ;}
 
     @media screen and (min-width:768px)
     {.sectionthree{width: 768px;
-    height: 1229px;}
+    height: 1224px;}
     .tithtwo{padding-top: 96px; }
     .thretext{text-align: center;}
     .tiththree{margin-left: 70px;}
-    .nameprof{width: 264px;height: 428px;
+    .nameprof{
+    width: 232px;
+    height: 104px;
     padding: 32px 0 32px;
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px ;}
@@ -470,7 +469,7 @@ a{ text-decoration: none ;}
     flex-wrap: wrap;
     gap: 24px;
     margin-left: 108px;}
-    .sectourteam{width: 264px;height: 428px;}
+    .sectourteam{}
     }
 
     @media screen and (min-width:1158px)
@@ -485,6 +484,8 @@ a{ text-decoration: none ;}
     height:428px ;
     margin-bottom: 120px;
     }
+    .nameprof{}
+    .navsoshmed{}
     .tithtwo{padding-top: 120px;} 
     .sectourteam{
     flex-basis: calc((100% - 3 * 24px) / 4);}
