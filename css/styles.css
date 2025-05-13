@@ -432,9 +432,7 @@ a{ text-decoration: none ;}
     }
 
     @media screen and (min-width:768px)
-    {.sectionthree{width: 768px;
-    }
-    .tithtwo{padding-top: 96px; }
+    {.tithtwo{padding-top: 96px; }
     .thretext{text-align: center;}
     .nameprof{
     width: 232px;
@@ -450,7 +448,7 @@ a{ text-decoration: none ;}
     }
 
     @media screen and (min-width:1158px)
-    {.sectionthree{width: 1440px;
+    {.sectionthree{
     padding-top: 120px;
     padding-bottom: 120px;}
     .oursp{margin: 0 auto;
@@ -563,7 +561,7 @@ a{ text-decoration: none ;}
     }
 
     /*footer*/
-    .footrendd{width: 320px;
+    .footrendd{
     background-color:#2E2F42;}
     .confoot{padding-bottom: 72px;
     padding-top: 96px;
@@ -656,10 +654,9 @@ a{ text-decoration: none ;}
     @media screen and (min-width:768px)
 
     { 
-    .footrendd{width: 768px;
+    .footrendd{
     height: 456px;
     display: flex;
-  
     align-items: baseline;
     flex-wrap: wrap;}
     .logo{margin-left: 0;}
@@ -691,7 +688,7 @@ a{ text-decoration: none ;}
 
      @media screen and (min-width:1158px)
     {.footrendd{width: 1440px;
-    height: 312px; margin-top: 100px; 
+    margin-top: 100px; 
     }
     .confoot{margin: 0 auto;
     width: 264px;
