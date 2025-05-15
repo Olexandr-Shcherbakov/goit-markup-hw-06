@@ -422,7 +422,8 @@ a{ text-decoration: none ;}
     box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);}
     .oursp{display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
+    justify-content: center;  
     row-gap: 72px;
     }
     .imgsecth{display: block;
@@ -459,8 +460,9 @@ a{ text-decoration: none ;}
 
     @media screen and (min-width:768px)
     {.sectionthree{padding-left: 108px;
-    padding-right: 108px;}
-    .tithtwo{ }
+    padding-right: 108px;
+    margin: 0 auto;}
+
     .thretext{text-align:  center;}
     .nameprof{padding-top: 32px;
     padding-bottom: 32px;
@@ -470,7 +472,8 @@ a{ text-decoration: none ;}
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px ;}
     .navsoshmed{column-gap:  16px;}
-    .oursp{row-gap: 64px;
+    .oursp{margin: 0 auto;
+    row-gap: 64px;
     display: flex;
     flex-wrap:wrap;
     column-gap: 24px;}
@@ -487,7 +490,7 @@ a{ text-decoration: none ;}
     flex-wrap:nowrap;
     }
     .imgsecth{width: 264px;}
-    .tithtwo{} 
+     
     .sectourteam{width: 264px; 
     flex-basis: calc((100% - 3 * 24px) / 4);
    }
@@ -634,10 +637,7 @@ a{ text-decoration: none ;}
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;}
-    .soocfott{
-   
-    }
-    .footcon{}
+
     .parfoot{text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -727,7 +727,7 @@ a{ text-decoration: none ;}
     width: 208px;}
     .footrendd{display: flex;
     align-items: baseline;}
-    .socfoot{}
+    
     .parfot{text-align: left;margin-left: 110px;}
     .labfoot{margin-left: 110px;}
     .inpsubsc{
