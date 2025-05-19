@@ -722,7 +722,7 @@ a{ text-decoration: none ;}
     .fomfoot{display: flex;
      gap: 24px;}
     .confoot{margin-right: 24px;
-    margin-left: 110px;
+    margin-left: 100px;
     margin-bottom: 72px;  
     width: 264px; }
     .parfoot{text-align: left;}
@@ -734,7 +734,7 @@ a{ text-decoration: none ;}
     align-items: baseline;}
     
     .parfot{text-align: left;margin-left: 110px;}
-    .labfoot{margin-left: 110px;}
+    .labfoot{margin-left: 108px;}
     .inpsubsc{
     width:264px;height:40px;}
     .butsubmit{width: 165px;
